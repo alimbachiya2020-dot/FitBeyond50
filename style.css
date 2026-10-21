@@ -1,0 +1,144 @@
+ body{
+  margin:0;
+  background-colour:#D3D3D3;
+  font-family:sans-serif;
+ }
+ .topnav{
+ background-color:white;
+ width:100%;
+ display:flex;
+ justify-content:center;
+ position:sticky;
+ top:0;
+ z-index:100;
+}
+.topnav a{
+ color:black;
+ text-align:center;
+ padding: 16px 24px;
+ text-decoration:none;
+ font-size:18px;
+ font-family:sans-serif;
+ border-bottom:3px solid transparent;
+}
+.topnav a:hover{
+ background-color:#ddd;
+ color:white;
+}
+
+.topnav a.active{
+ background-color: white;
+ color:Black;
+ border-bottom:3px solid black;
+}
+
+.main-title{
+ color:Black;
+ font-family:sans-serif;
+ font-size:400%;
+ text-align:center;
+ margin-top:40px;
+ margin-bottom:10px;
+}
+
+.dashboard-content{
+ max-width:800px;
+ margin:0 auto;
+ padding:48px 20px 20px 20px;
+ text-align:center;
+}
+.stats-container{
+ display:flex;
+ justify-content:center;
+ gap:100px;
+ color:Black;
+ margin-top:20px;
+ font-size:160%;
+}
+
+:root{
+    --surface:#fff;
+    --border:#d4d9e5;
+    --accent:#2563eb;
+
+}
+body{
+    font-family:"Inter",sans-serif;
+    background:#D3D3D3;
+    padding:0;
+    margin:0;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    max-width:800px;
+    margin:20px auto;
+}
+.card1{
+    width:50%;
+    margin:0 ;
+    padding:16px 28px;
+    border:2px solid var(--border);
+    border-radius:18px;
+    background:var(--surface);
+    box-shadow:0 14px 28px rgba(15,23,42,0.08);
+}
+.card1 p{
+    margin:0;
+    line-height:1.6;
+    font-size:1rem;
+}
+.card2{
+    width:50%;
+    margin:0 ;
+    padding:16px 28px;
+    border:2px solid var(--border);
+    border-radius:18px;
+    background:var(--surface);
+    box-shadow:0 14px 28px rgba(15,23,42,0.08);
+}
+.card2 p{
+    margin:0;
+    line-height:1.6;
+    font-size:1rem;
+}
+.bottom-box{
+    max-width:800px;
+    margin:20px auto;
+    padding:20px 28px;
+    border:2px solid var(--border);
+    border-radius:18px;
+    background:var(--surface);
+    box-shadow:0 14px 28px rgba(15,23,42,0.08);
+}
+h1{
+    font-size:20px;
+    font-family:"Inter",sans-serif
+}
+.button{
+    border:none;
+    color:white;
+    padding:15px 32px;
+    text-align:center;
+    text-decoration:none;
+    display:inline-block;
+    font-size:16px;
+    margin:4px 2px;
+    cursor:pointer;
+}
+.button1{background-color: black;}
+
+.button2{background-color:black}
+
+.button3{
+    background-color: black;
+    text-align:center;
+    }
+.center-wrapper{
+    text-align:center;
+    margin:30px 0;
+}
+.h2{
+    font-size:20px;
+}
